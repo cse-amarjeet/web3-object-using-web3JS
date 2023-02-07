@@ -3,10 +3,9 @@ const Web3 = require("web3");
 const SpacePunkTokenABI = require("./space_punk_token");
 
 const provider = new HDWalletProvider(
-  "tortoise uphold assume theme daring unfold cheese erode margin picnic heavy coach",
+  "enter your metamask phase",
   // remember to change this to your own phrase!
-  "https://mainnet.infura.io/v3/6d91b4f97959471fb5046ce94d105475"
-  //"https://goerli.infura.io/v3/6d91b4f97959471fb5046ce94d105475"
+  "put you infura Ethereum Node provider"
   // remember to change this to your own endpoint!
 );
 const web3 = new Web3(provider);  //this is the web3 object for direct use 
